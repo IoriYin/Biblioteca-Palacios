@@ -1,25 +1,26 @@
-# CakePHP 3
+# PHP general
+/vendor/
+/composer.phar
+composer.lock
 
-/vendor/*
-/config/app.php
+# Editor config
+.idea/
+.vscode/
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Logs y temporales
+*.log
+*.bak
+.DS_Store
+Thumbs.db
 
-/logs/*
-!/logs/empty
+# Bases de datos locales
+*.sql
+*.db
 
-# CakePHP 2
+# Archivos comprimidos
+*.zip
+*.rar
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# XAMPP config opcional
+*.ini
+*.conf
